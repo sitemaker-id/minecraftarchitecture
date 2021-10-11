@@ -1,0 +1,31 @@
+/*
+  This css file is for individual users to restyle items for their personal site,
+  or for the implementation of features specifically for their site. Anything that
+  is an official part of the theme (ex. Pull Requests) should be included in main.css
+  and follow the formatting and style given.
+*/
+/* フォント変更、英文字をすべて大文字なし */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  text-transform: none;
+}
+
+/* カテゴリ・タグ デザイン変更 */
+a.article-category-link {
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0.3em;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+/* サイト タイトルのフォント間隔変更 */
+#header h1 a {
+  letter-spacing: 0;
+}
